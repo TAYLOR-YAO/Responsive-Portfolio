@@ -1,0 +1,225 @@
+body{
+    width: 960px;
+    height: 100%;
+    margin: 0px auto;
+    background-image: url("https://images.freecreatives.com/wp-content/uploads/2016/02/Cardboard-Flat-subtle-Pattern-Texture.png");
+}
+#header{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    position: relative;
+    bottom: 15px;
+   
+}
+#header a{
+    margin: 10px;
+    position: relative;
+    top: 15px;
+}
+a{
+    color: gainsboro;
+    text-decoration: none;
+}
+a:hover{
+    color: teal;
+}
+#name{
+    width: 140px;
+    background-color: teal;
+    float: left;
+
+}
+h3{
+    margin-left: 20px;
+    font-style: bold;
+    color: white;
+}
+h4{
+    margin-left: 20px;
+}
+#nav{
+    width: 520px;
+    background-color: white;
+}
+li{
+    text-decoration-color: none;
+    display: inline-block;
+    
+}
+.headlink{
+    position: relative;
+    left: 550px;
+    color: teal;
+}
+#about{
+    width: 650px;
+    background-color: white;
+    float: left;
+ 
+}
+#connect{
+    width: 270px;
+    background-color: white;
+    float: left;
+    height: 190px;
+    margin-left: 40px;
+    
+}
+#about>img{
+        float: left;
+}
+h4{
+    color: teal;
+    font-size: 18px;
+    margin-left: 30px;
+}
+hr{
+    width: 90%;
+}
+#footer{
+    background-color: gray;
+    height: 40px;
+    text-align: center;
+
+}
+img{
+    margin:10px; 
+    margin-left: 20px;
+}
+p{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+#main{
+    height: 100%;
+}
+.icone{
+    margin: 5px;
+}
+#clear{
+    clear: both;
+    height: 70px;;
+}
+.form{
+    border: 1px solid gray;
+    width: 600px;
+    margin-left: 20px;
+    height: 20px;
+    border-radius: 3px;
+}
+#message{
+    height: 125px;
+}
+#submit{
+    color: white;
+    background-color: teal;
+    width: 80px;
+    margin-left: 20px;
+}
+#button{
+    color: white;
+    text-align: center;
+    position: relative;
+    right: 20px;
+}
+
+#port1{
+    width: 230px;
+    height: 180px;
+    background-image: url(../images/tablet.jpg);
+    margin: 20px;
+    margin-left: 50px;
+    float: left;
+}
+#port2{
+    width: 230px;
+    height: 180px;
+    background-image: url(../images/tech.jpg);
+    margin: 20px;
+    margin-left: 50px;
+    float: left;
+  
+}
+#port3{
+    width: 230px;
+    height: 180px;
+    background-image: url(../images/game-taylor.jpg);
+    margin: 20px ;
+    margin-left: 50px;
+    float: left;
+  
+}
+#port4{
+    width: 230px;
+    height: 180px;
+    background-image: url(../images/phone.jpg);
+    margin: 20px;
+    margin-left: 50px;
+    float: left;
+}
+#port5{
+    width: 230px;
+    height: 180px;
+    background-image: url(../images/technology.jpg);
+    margin: 20px ;
+    margin-left: 50px;
+    float: left;
+   
+}
+h5{
+    text-align: center;
+    background-color: teal;
+    color: white;
+    position: relative;
+    top: 55%;
+    font-size: 20px;
+}
+
+
+/* My media queries*/
+/*this is for destop*/
+
+
+@media screen and (max-width:980px) {
+    #about{
+        width: 68%;
+    }
+    #connect{
+        width: 32%;
+    }
+    #name{
+        width: 15%;
+    }
+    #nav{
+        width: 85%;
+    }
+    #footer{
+        width: 100%;
+    }
+
+}
+@media screen and (max-width:678px) {
+    #about{
+        width: 100%;
+        padding: 10px;
+        margin: 10px auto;
+    }
+    #connect{
+        width: 100%;
+        margin: 10px auto;
+        padding: 10px;
+
+    }
+    #name{
+        width: 40%;
+
+    }
+    #headlink{
+        position: relative;
+        right: 260px;
+        
+    }
+
+}
