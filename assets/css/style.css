@@ -183,43 +183,19 @@ h5{
 
 
 @media screen and (max-width:980px) {
-    #about{
-        width: 68%;
-    }
-    #connect{
-        width: 32%;
-    }
-    #name{
-        width: 15%;
-    }
-    #nav{
-        width: 85%;
-    }
-    #footer{
-        width: 100%;
-    }
+    
+}
+
+
+
+@media screen and (max-width:678px) {
+   #connect{
+       float: right;
+   }
 
 }
-@media screen and (max-width:678px) {
-    #about{
-        width: 100%;
-        padding: 10px;
-        margin: 10px auto;
-    }
-    #connect{
-        width: 100%;
-        margin: 10px auto;
-        padding: 10px;
 
-    }
-    #name{
-        width: 40%;
-
-    }
-    #headlink{
-        position: relative;
-        right: 260px;
-        
-    }
+@media screen and (max-width:640px) {
+   
 
 }
